@@ -122,7 +122,7 @@ super + {Left,Down,Up,Right}
 
 # Screenshot scrot
 super + alt + 1
-	scrot /home/alvinpix/Imágenes/capture
+	scrot /home/alvinpix/Imágenes/capture.png
 
 # betterlockscreen
 super + x
