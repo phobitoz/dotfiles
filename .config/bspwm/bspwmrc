@@ -31,4 +31,4 @@ lxappearance &
 ${HOME}/.config/polybar/launch.sh --cuts $
 xsetroot -cursor_name left_ptr &
 #picom &
-compton &
+#compton &
