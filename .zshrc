@@ -309,6 +309,7 @@ alias cachefont="fc-cache -fv"
 #bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r
 user=$(whoami)
 alias colorscript="bash /home/${user}/shell-color-scripts/colorscript.sh -r"
+bash /home/${user}/shell-color-scripts/colorscript.sh -r
 
 # fzf improvement
 function fzf-lovely(){
