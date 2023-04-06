@@ -28,7 +28,7 @@ bspc rule -a Screenkey manage=off
 
 nitrogen --restore &
 lxappearance &
-${HOME}/.config/polybar/launch.sh --cuts $
+${HOME}/.config/polybar/launch.sh --cuts
 xsetroot -cursor_name left_ptr &
 #picom &
 #compton &
