@@ -305,8 +305,9 @@ alias clsapt="cd /home/alvinpix/Escritorio/PX-games/Visualcode/Shell-bash && ./a
 alias clsram="sudo sync && sudo sysctl -w vm.drop_caches=3"
 alias metasrule="cat /home/alvinpix/Escritorio/PX-games/Services/metasrule"
 alias cachefont="fc-cache -fv"
-alias colorscript="bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r"
-bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r
+#alias colorscript="bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r"
+#bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r
+alias colorscript="bash /home/${user}/shell-color-scripts/colorscript.sh -r"
 
 # fzf improvement
 function fzf-lovely(){
@@ -337,8 +338,6 @@ function fzf-lovely(){
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# fzf Setup
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Enable Powerlevel10k instant prompt. Should stay at the top of ~/.zshrc.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
