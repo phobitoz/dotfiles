@@ -307,6 +307,7 @@ alias metasrule="cat /home/alvinpix/Escritorio/PX-games/Services/metasrule"
 alias cachefont="fc-cache -fv"
 #alias colorscript="bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r"
 #bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r
+user=$(whoami)
 alias colorscript="bash /home/${user}/shell-color-scripts/colorscript.sh -r"
 
 # fzf improvement
