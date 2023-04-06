@@ -259,6 +259,7 @@ fi
 
 # AlvinPix edits
 
+user=$(whoami)
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 #source $(dirname $(gem which colorls))/tab_complete.sh
 source /usr/share/zsh-sudo/sudo.plugin.zsh
@@ -299,7 +300,8 @@ alias cat="batcat"
 alias ls="lsd -A -l"
 alias catn="/usr/bin/cat"
 alias clock="tty-clock -sxc -C 2"
-alias pipes="cd /home/alvinpix/Escritorio/PX-games/Github/pipes.sh && ./pipes.sh -t 9"
+#alias pipes="cd /home/alvinpix/Escritorio/PX-games/Github/pipes.sh && ./pipes.sh -t 9"
+alias pipes="cd /home/${user}/pipes.sh && ./pipes.sh -t 9"
 alias server="cd /home/alvinpix/Escritorio/PX-games/Services && sudo openvpn --config metasbom.exploits.ovpn"
 alias clsapt="cd /home/alvinpix/Escritorio/PX-games/Visualcode/Shell-bash && ./aptclean.sh"
 alias clsram="sudo sync && sudo sysctl -w vm.drop_caches=3"
@@ -307,7 +309,6 @@ alias metasrule="cat /home/alvinpix/Escritorio/PX-games/Services/metasrule"
 alias cachefont="fc-cache -fv"
 #alias colorscript="bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r"
 #bash /home/alvinpix/Escritorio/PX-games/Github/shell-color-scripts/colorscript.sh -r
-user=$(whoami)
 alias colorscript="bash /home/${user}/shell-color-scripts/colorscript.sh -r"
 bash /home/${user}/shell-color-scripts/colorscript.sh -r
 
