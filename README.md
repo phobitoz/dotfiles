@@ -16,7 +16,7 @@ https://youtu.be/pfyjik4qS5E
 git clone https://github.com/AlvinPix/dotfiles.git
 cd dotfiles
 chmod +x bspwm_stage_1.sh bspwm_stage_2.sh bspwm_stage_3.sh bspwm_stage_4.sh
-/bspwm_stage_1.sh && ./bspwm_stage_2.sh && ./bspwm_stage_3.sh && ./bspwm_stage_4.sh
+./bspwm_stage_1.sh && ./bspwm_stage_2.sh && ./bspwm_stage_3.sh && ./bspwm_stage_4.sh
 ```
 
 ## Supported distributions ⌛
