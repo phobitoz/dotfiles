@@ -1,11 +1,28 @@
-# Dotfiles bspwm
+## Dotfiles bspwm
 
 My configurations of both (bspwm) and other things I hope you like it :)
 
-# Screenshot ⚠
+## Screenshot 📷
 
 [![BSPWM-TERM.png](https://i.postimg.cc/0jq3Shtp/BSPWM-TERM.png)](https://postimg.cc/BLMM97f6)
 
-[![BSPWM-DESKTOP.png](https://i.postimg.cc/YCm6cj2C/BSPWM-DESKTOP.png)](https://postimg.cc/rDM0xVtB)
+## Youtube 🎧
 
-[![BSPWM.png](https://i.postimg.cc/QtVNPKs6/BSPWM.png)](https://postimg.cc/vgFdxB49)
+https://youtu.be/pfyjik4qS5E
+
+## Install ✍
+
+```
+git clone https://github.com/AlvinPix/dotfiles.git
+cd dotfiles
+chmod +x bspwm_stage_1.sh bspwm_stage_2.sh bspwm_stage_3.sh bspwm_stage_4.sh
+/bspwm_stage_1.sh && ./bspwm_stage_2.sh && ./bspwm_stage_3.sh && ./bspwm_stage_4.sh
+```
+
+## Supported distributions ⌛
+
+| Distribution |   State       |
+|--------------|---------------| 
+| Kali Linux   | Compatible    |
+| Debian       | Compatible    |
+| Parrot OS    | Compatible    |
